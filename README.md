@@ -1,24 +1,22 @@
 # Semantic Segmentation
 ### Result
-![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512823282.7850637/umm_000004.png)
-![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512823282.7850637/umm_000028.png)
-![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512823282.7850637/umm_000032.png)
-![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512823282.7850637/umm_000049.png)
-![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512823282.7850637/umm_000077.png)
+![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512836061.2199194/um_000013.png)
+![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512836061.2199194/um_000054.png)
+![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512836061.2199194/umm_000034.png)
+![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512836061.2199194/umm_000035.png)
+![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512836061.2199194/umm_000084.png)
+![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512836061.2199194/uu_000022.png)
+![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/runs/1512836061.2199194/uu_000030.png)
 
 I think they predict the road in a relatively high accuracy.
 
 ### Parameters
-learning_rate = 0.0001
-keep_prob = 0.5
-batch_size = 16
-epochs = 40
-
+| Parameters    | Value    |
+| :------------:| :-------:|
+| learning_rate | 0.0001   |
+| keep_prob     | 0.5      |
+| batch_size    | 2        |
+| epochs        | 20       |
 
 ### Implementation
 All the implementation passed the test.
-
-### Loss
-I'm sorry that I failed to print the loss in the .ipynb file. Instead, the loss was printed in the terminal. So I recorded it and drew a graph.
-
-![](https://github.com/rainbamboooo/semantic_segmentation/raw/master/loss.png)
